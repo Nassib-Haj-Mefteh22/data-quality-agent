@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local data and caches
+data/
+cache/
+*.log
+
+# Local project notes
+CLAUDE.md
+PLAN.md
+EXPLAIN.md
